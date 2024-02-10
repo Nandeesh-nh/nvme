@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* logo */
+/* .logo{
+    height: 99%;
+    width: 3rem;
+    
+
+} */
+
+.imgc{
+    height: 100%;
+    background-color: yellow;
+    width: 17rem;
+    margin-left: 0px;
+
+
+}
+
+
+/* nav bar */
+.navbar{
+    width: 7.25rem;
+    height:1.4rem;
+    margin-left:1.3rem ;
+    color: rgb(238, 232, 232);
+    border-radius: 7px;
+    /* border: 2px solid rgb(245, 242, 242); */
+    /* margin-top: 1.56rem; */
+    text-align: center;
+    font-size: 1.15em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    /* font-weight: bold; */
+   
+    
+
+}
+.navbar:hover{
+    border: 2px solid rgb(245, 242, 242);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    flex-direction : row;
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+    align-content: center;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+}
+
+header{
+    height: 8.5vh;
+    width: 100%;
+    background-color: rgb(13, 25, 21);
+    opacity: 50%;
+    flex-direction : row;
+}
+
+#form input{
+    align-self:self-end;
+    height: 1.5rem;
+    width: 13rem;
+    border-radius: 8px;
+   
+}
+
+#form{
+    margin-right: 4.5rem;
+    margin-left: 8rem;
+    
+}
+#form button{
+    height: 1.5rem;
+    border-radius: 8px;
+    width: 5rem;
+}
+
+
+/* footer */
+.footbox {
+    display: flex;
+    flex-direction: column;
+    border : 2px black solid;
+    width : 85%;
+    margin-left : 7%;
+}
+.f-1 {
+     display : flex;
+    flex-direction : row;
+}
+.footbox1 {
+    height: 11rem;
+    width : 12.25rem;
+    text-decoration: none;
+    margin-left : 2rem;
+    margin-top: 2rem;
+    width : 14rem;
+    margin-bottom : 2.5rem;
+   
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    list-style: none;
+    text-decoration: none;
+    height : 1.58rem;
+    padding-left : 0.5rem;
+    padding-bottom : 0.5rem;
+}
+   
+.nav-item>a{
+    text-decoration: none;
+}
+.footbox1 > h5 {
+    margin-bottom : 10px;
+    font-size : 1.5rem;
+    font-weight: bold;
+}
