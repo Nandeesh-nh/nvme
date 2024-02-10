@@ -264,4 +264,13 @@ section .content{
     background-image: url("bg1.jpg");
 }
 
+<<<<<<< HEAD
 /* calener */
+=======
+/* calenadar */
+.text1{
+    text-align: center;
+    font-size: 4em;
+    color: white;
+}
+>>>>>>> a37baaf7827ff8af42518e0d9cd8acae475be502
