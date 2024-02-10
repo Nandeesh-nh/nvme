@@ -23,29 +23,24 @@
 
 
 /* nav bar */
-.navbar{
-    width: 7.25rem;
-    height:1.4rem;
+.navbar1{
+    width: auto;
+    height: auto;
     margin-left:1.3rem ;
     color: rgb(238, 232, 232);
     border-radius: 7px;
     /* border: 2px solid rgb(245, 242, 242); */
     /* margin-top: 1.56rem; */
     text-align: center;
-    font-size: 1.15em;
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
+    font-size: 0.3em;
+    padding : 0.3em 3em 0.3em 3em;
     /* font-weight: bold; */
-   
-    
-
 }
-.navbar:hover{
+.navbar1:hover{
     border: 2px solid rgb(245, 242, 242);
-    font-size: 1.2em;
     font-weight: bold;
 }
-nav {
+navbox {
     display: flex;
     flex-direction : row;
     /* justify-content: flex-end; */
@@ -66,8 +61,8 @@ header{
 
 #form input{
     align-self:self-end;
-    height: 1.5rem;
-    width: 13rem;
+    height: 1.95rem;
+    width: 16rem;
     border-radius: 8px;
    
 }
@@ -77,10 +72,10 @@ header{
     margin-left: 8rem;
     
 }
-#form button{
-    height: 1.5rem;
+#form>button{
+    height: 1.8rem;
     border-radius: 8px;
-    width: 5rem;
+    width: 3rem;
 }
 
 
@@ -94,7 +89,7 @@ header{
 }
 .f-1 {
      display : flex;
-    flex-direction : row;
+     flex-direction : row;
 }
 .footbox1 {
     height: 11rem;
@@ -123,4 +118,80 @@ header{
     margin-bottom : 10px;
     font-size : 1.5rem;
     font-weight: bold;
+}
+
+
+/* 
+content part */
+.content {
+    height : 100vh;
+    width : 100%;
+}
+.intro-box{
+    height : 90vh;
+    background-color: yellow;
+    width : 90%;
+    margin : auto;
+    display : flex;
+    flex-direction : row;
+    flex-wrap : wrap;
+    align-content : center;
+    justify-content: space-between;
+    margin : auto;
+}
+.info {
+    height : 30rem;
+    width : 50%;
+    background-color: pink;
+    padding : 40px;
+}
+
+.info > p {
+    text-align : center;
+    font-size : 1.5em;
+}
+.info > h1 {
+    font-size : 3.5em;
+    font-weight : 700;
+}
+.info > h3 {
+    font-size : 2.3em;
+    font-weight : 600;
+}
+.info > button {
+    margin-left : 40%;
+    height : 3.5em;
+    width : 8em;
+    background-color: brown;
+    color : white;
+    border : none;
+    font-size: 1.13em;
+    text-decoration: ;
+}
+.info>button>a:hover {
+    border : none;
+    color : white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.image {
+    height : 87%;
+    width : 40%;
+    background-color : black;
+
+}
+.image >img {
+    height : 100%;
+    width : 100%;
+}
+
+
+
+/* //form */
+.form  {
+    width : 80%;
+    height : 100%;
+    margin-left : 10%;
+    margin-top: 2rem;
+    margin-bottom : 2rem;
 }
