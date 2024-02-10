@@ -270,3 +270,45 @@ section .content{
     font-size: 4em;
     color: white;
 }
+
+/* registrationform */
+.form{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.btn{
+    margin-top: 1rem;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+.name{
+    margin-left: 8rem;
+    width: 40%;
+}
+.list-group{
+    display: flex;
+    justify-content: left;
+    margin-left: 10rem;
+}
+.form-group{
+    margin-top: 2rem;
+}
+.state{margin-left: 2rem;}
+
+#head1{
+    margin-top: 4rem;
+    margin-right: 50rem;
+    width: 50%;
+}
+.full{
+ margin-top: 2rem;
+    border: 2px solid blue;
+    align-items: center;
+    margin: auto;
+    height: 95vh;
+    width: 50%;
+    background-color: rgb(145, 144, 92);
+}
