@@ -263,3 +263,10 @@ section .content{
 section .content{
     background-image: url("bg1.jpg");
 }
+
+/* calenadar */
+.text1{
+    text-align: center;
+    font-size: 4em;
+    color: white;
+}
