@@ -14,7 +14,7 @@
 
 .imgc{
     height: 100%;
-    background-color: yellow;
+    background-color: black;
     width: 17rem;
     margin-left: 0px;
 
@@ -29,12 +29,10 @@
     margin-left:1.3rem ;
     color: rgb(238, 232, 232);
     border-radius: 7px;
-    /* border: 2px solid rgb(245, 242, 242); */
-    /* margin-top: 1.56rem; */
     text-align: center;
     font-size: 0.3em;
     padding : 0.3em 3em 0.3em 3em;
-    /* font-weight: bold; */
+    
 }
 .navbar1:hover{
     border: 2px solid rgb(245, 242, 242);
@@ -54,8 +52,8 @@ navbox {
 header{
     height: 8.5vh;
     width: 100%;
-    background-color: rgb(13, 25, 21);
-    opacity: 50%;
+    background-color: royalblue;
+    opacity: 80%;
     flex-direction : row;
 }
 
@@ -83,15 +81,18 @@ header{
 .footbox {
     display: flex;
     flex-direction: column;
-    border : 2px black solid;
-    width : 85%;
-    margin-left : 7%;
+    border : 1px black solid;
+    width : 96%;
+    height: auto;
+    margin-left : 2rem;
+
 }
 .f-1 {
      display : flex;
      flex-direction : row;
 }
 .footbox1 {
+    
     height: 11rem;
     width : 12.25rem;
     text-decoration: none;
@@ -138,11 +139,14 @@ content part */
     justify-content: space-between;
     margin : auto;
     margin-top: 6rem;
+    
+   
 }
 .info {
     height : 28rem;
     width : 56%;
-    background-color: pink;
+    background-color: white;
+    background: url(./image/bg1.jpg);
     padding : 40px;
     /* justify-content: center; */
 }
@@ -215,7 +219,7 @@ content part */
     margin: 30px 4px;
     border-radius: 10px;
     background-color: white;
-    height: 36rem;
+    height: 42rem;
     flex-wrap : wrap;
 
 }
@@ -245,7 +249,8 @@ content part */
 
 }
 #services .box:hover{
-   background-color: gray;
+   background-color: rgba(188, 186, 186, 0.586);
+   
 
 
 }
@@ -264,12 +269,16 @@ section .content{
     background-image: url("bg1.jpg");
 }
 
+
+/* calener */
+
 /* calenadar */
 .text1{
     text-align: center;
     font-size: 4em;
     color: white;
 }
+
 
 /* registrationform */
 .form{
@@ -310,5 +319,5 @@ section .content{
     margin: auto;
     height: 95vh;
     width: 50%;
-    background-color: rgb(145, 144, 92);
+    /* background-color: rgb(145, 144, 92); */
 }
